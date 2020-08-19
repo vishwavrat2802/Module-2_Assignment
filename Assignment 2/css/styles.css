@@ -1,0 +1,103 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10px;
+}
+
+#headtitle {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: 54px;
+}
+
+#boxes {
+	width: 100%;
+	background-color: #999999;
+	border: 2px solid black;
+	position: relative;
+}
+
+#sect {
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+	background-color: #d59898;
+	border: 2px solid black;
+	margin-bottom: 8px;
+	padding: 2px;
+	width: 140px;
+	text-align: center;
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+}
+
+#sect1 {
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+	background-color: #c14543;
+	border: 2px solid black;
+	margin-bottom: 8px;
+	padding: 2px;
+	width: 140px;
+	color: white;
+	text-align: center;
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+}
+
+#sect2 {
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+	background-color: #e5d198;
+	border: 2px solid black;
+	margin-bottom: 8px;
+	padding: 2px;
+	width: 140px;
+	text-align: center;
+	font-family: 'Comic Neue', cursive;
+	font-size: 18px;
+}
+
+
+#boxes #text {
+
+	font-size: 18px;
+	margin: 12px;
+	margin-left: 18px;
+	margin-top: 35px;
+}
+@media (min-width: 992px) {
+	.col-md-4 {
+		width: 33.333%;
+		float: left;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.col-sm-6 {
+		width: 50%;
+		float: left;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.col-sm-12 {
+		width: 100%;
+		float: left;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 767px) {
+	.col-xs-12 {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+}
